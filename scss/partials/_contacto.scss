@@ -1,0 +1,72 @@
+@import "variables/variables";
+
+body {
+    background-color: $color-fondo-header;
+}
+
+
+header {
+    nav {
+        text-align: center;
+        margin-top: 20px;
+
+        a {
+            color: rgb(98, 231, 187);
+
+            &:hover {
+                color: rgb(228, 228, 187);
+            }
+        }
+
+        .menu {
+            color: rgb(171, 228, 209);
+        }
+    }
+}
+
+h1 {
+    color: $color-font;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+}
+
+section {
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+
+    h2 {
+        color: $color-font;
+        font-size: xx-large;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .img1 {
+        align-items: center;
+    }
+
+    p {
+        color: $color-font
+    }
+}
+
+footer {
+    color: $color-font;
+    font-size: smaller;
+    margin-left: 600px;
+    margin-top: 100px;
+
+    p {
+        color: $color-font;
+    }
+
+    a {
+        color: $color-font
+    }
+}
