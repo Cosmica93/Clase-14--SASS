@@ -1,5 +1,8 @@
 @import "partials/variables/variables";
 @import "partials/contacto";
 @import "../sass/mixins";
-@import "../sass/maps";
-@import "../sass/extend";
+
+
+header {
+    @include estilo-de-anclas;
+}

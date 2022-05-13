@@ -1,5 +1,7 @@
 @import "variables/variables";
 
+
+
 body {
     background-color: $color-fondo-header;
 }
@@ -59,7 +61,7 @@ section {
 footer {
     color: $color-font;
     font-size: smaller;
-    margin-left: 600px;
+    margin-left: 550px;
     margin-top: 100px;
 
     p {
